@@ -12,7 +12,8 @@ If you want to know more you can have a look at the introductoy slides available
 
 ## Prerequisite
 
-We will use [MATLAB](https://uk.mathworks.com/products/matlab.html) throughout the entire course, so make sure to have it installed on you computer.
+The entire course is developed in [MATLAB](https://uk.mathworks.com/products/matlab.html), so make sure to have it installed on you computer.
+The course was tested on MATLAB R2022a. The Deep Learning Toolbox and Statistics and Machine Learning Toolbox are available from 2019a version on, so you should have at least that version.
 
 ### MATLAB ad-on toolboxes
 
@@ -26,6 +27,7 @@ You will need to have the following ad-on toolboxes installed on your MATLAB:
 
 You can check the ad-ond currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window. You can find the process illustrated by the following screenshots: [step1](figs/prereq/addons1.png), [step2](figs/prereq/addons2.png).
 
+<!---
 ### MATLAB toolboxes
 
 You will also need to Download the following toolboxes:
@@ -39,6 +41,7 @@ You will also need to Download the following toolboxes:
 After the download you should keep track of the path to the folder where they are located.
 
 Suggestion: creat a folder
+--->
 
 ## Download the project folder
 
@@ -54,10 +57,21 @@ git clone https://github.com/micGuerr/MedICSS_2022_microImag.git
 
 Once you have downloaded the project folder we need to add the folder to your MATLAB path. You can find the process illustrated by the following set of screenshots: [step1](figs/installation/addpath1.png), [step2](figs/installation/addpath2.png).
 
-## Usage
+## Download the example data set
 
-### Input
+The data set is available for download as a [compressed zip archive](https://www.nitrc.org/frs/download.php/11758/NODDI_example_dataset.zip).
 
-### Output
+You should unzip the folder and move it to the clone of the current git repository you downloaded on your computer.
 
-### Example Command
+If you are on mac or linux the set of commands from terminal should look something like the following:
+
+```
+cd ~/Downloads
+unzip NODDI_example_dataset.zip
+mv NODDI_example_dataset/ <path_to_project_folder>/MedICSS_2022_microImag/
+rm NODDI_example_dataset.zip
+```
+
+## Get started
+
+You can find the course material in [`doc/course_material`](doc/course_material).
