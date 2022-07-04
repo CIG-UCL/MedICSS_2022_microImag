@@ -11,9 +11,19 @@ If you want to know more you can have a look at the introductoy slides available
 
 ## Prerequisite
 
-We will use MATLAB throughout the entire course, so make sure to have it installed on you computer.
+We will use [MATLAB](https://uk.mathworks.com/products/matlab.html) throughout the entire course, so make sure to have it installed on you computer.
 
-### Matlab toolboxes
+### MATLAB ad-on toolboxes
+
+* **Optimization** toolbox.
+
+* **Deep Learning Toolbox**.
+
+* **Statistics and Machine Learning Toolbox**.
+
+You can check the ad-ond currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window display. Check [here]() for a visual tutorial.
+
+### MATLAB toolboxes
 
 You will need to Download the following toolboxes:
 
@@ -22,14 +32,6 @@ You will need to Download the following toolboxes:
 * The [NIfTI Matlab library](https://github.com/NIFTI-Imaging/nifti_matlab).
 
 * The[NifTI Matlab tools](https://uk.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image).
-
-### MAtlab ad-on toolboxes
-
-* **Optimization** toolbox.
-
-* **Deep Learning** toolbox.
-
-* **Machine Learning and statistics** toolbox.
 
 ## Download
 
