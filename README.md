@@ -24,7 +24,7 @@ You will need to have the following ad-on toolboxes installed on your MATLAB:
 
 * **Statistics and Machine Learning Toolbox**.
 
-You can check the ad-ond currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window. Check [here]() for a visual tutorial.
+You can check the ad-ond currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window. You can find the process illustrated by the following screenshots: [step1](figs/prereq/addons1.png), [step2](figs/prereq/addons2.png).
 
 ### MATLAB toolboxes
 
@@ -40,18 +40,19 @@ After the download you should keep track of the path to the folder where they ar
 
 Suggestion: creat a folder
 
-## Download the GitHub folder
+## Download the project folder
 
-The best way to install this GitHub folder is directly from your MATLAB main window using a simple GUI.  You can find the process illustrated by the following set of screenshots: [step1](figs/installation/matlabGitRetrieval1.png), [step2](figs/installation/matlabGitRetrieval2.png), [step3](figs/installation/matlabGitRetrieval3.png). The documentation of this functionality is available [here](https://it.mathworks.com/help/simulink/ug/clone-git-repository.html).
+The best way to install this GitHub folder is directly from your MATLAB main window using a simple GUI.  You can find the process illustrated by the following set of screenshots: [step1](figs/download/gitdownload1.png), [step2](figs/download/gitdownload2.png), [step3](figs/download/gitdownload3.png). The documentation of this functionality is available [here](https://it.mathworks.com/help/simulink/ug/clone-git-repository.html).
 
-Otherwise you can download a zip version of the repository or use the following command from terminal:
+Alternatively you can download a zip version of the repository from the git repository web page or use the following command from terminal:
 
 ```
-git clone 
+git clone https://github.com/micGuerr/MedICSS_2022_microImag.git
 ```
 
 ## Installation
 
+Once you have downloaded the project folder we need to add the folder to your MATLAB path. You can find the process illustrated by the following set of screenshots: [step1](figs/installation/addpath1.png), [step2](figs/installation/addpath1.png).
 
 ## Usage
 
