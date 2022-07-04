@@ -8,7 +8,7 @@ This folder contains the material for "Estimation of brain tissue microstructure
 
 The aim of this project is to explore different approaches of estimating brain tissue microstructure parameters from diffusion MRI data.
 
-If you want to know more you can have a look at the introductoy slides available [here]().
+If you want to know more you can have a look at the introductoy slides available [here](doc/projectDescription/MedICSS_microImg_projectPresentation.pptx).
 
 ## Prerequisite
 
