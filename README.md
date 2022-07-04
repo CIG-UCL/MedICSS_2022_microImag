@@ -52,7 +52,7 @@ git clone https://github.com/micGuerr/MedICSS_2022_microImag.git
 
 ## Installation
 
-Once you have downloaded the project folder we need to add the folder to your MATLAB path. You can find the process illustrated by the following set of screenshots: [step1](figs/installation/addpath1.png), [step2](figs/installation/addpath1.png).
+Once you have downloaded the project folder we need to add the folder to your MATLAB path. You can find the process illustrated by the following set of screenshots: [step1](figs/installation/addpath1.png), [step2](figs/installation/addpath2.png).
 
 ## Usage
 
