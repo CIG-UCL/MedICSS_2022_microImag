@@ -75,3 +75,5 @@ rm NODDI_example_dataset.zip
 ## Get started
 
 You can find the course material in [`doc/course_material`](doc/course_material).
+
+At the end of each day I will add the solution to the task of the day in [`doc/solutions`](doc/solutions).
