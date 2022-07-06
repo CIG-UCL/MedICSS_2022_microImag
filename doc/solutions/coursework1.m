@@ -199,7 +199,8 @@ title('CSF voxel time series')
 % What type of tissue are we examining (hint, check the figure title)? 
 % Can you describe the image and explain why it look like this?
 % ANSWER: This example has chosen a voxel in the ventricle (CSF) as the 
-% intersection point ([54, 53, 24]). The signal intensity variation reveals
+% intersection point ([54, 53, 24]). 
+% The signal intensity variation reveals
 % how the measurements have been acquired. There are 9 high peaks (~16,000)
 % corresponding to the b=0 measurements.
 % The 72 non b=0 measurements are evenly split up between the b=0 s, i.e., 

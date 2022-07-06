@@ -43,13 +43,11 @@ b0_gcc = mean(gccVox_ts(acqProtocol.b0_Indices));
 gccVox_ts_norm = gccVox_ts./b0_gcc;
 synthVox_signal_norm = synthVox_signal/b0_gcc;
 
-voxRMSE = sqrt( mean( (synthVox_signal_norm - gccVox_ts_norm).^2 ) );
+voxRMSE = sqrt( ); % complete this
 
 % What value do ypu get? Does it make any sense?
-% ANSWER: 0.1579. Given the scale of the measures the value is sensibel.
+% ANSWER:
 
-% ... argument this 
-meanRMSE = sqrt( mean( (gccVox_ts_norm - mean(gccVox_ts_norm)).^2 ) );
 
 %% 3.2 Conventional parameter estimation
 
@@ -75,17 +73,14 @@ meanRMSE = sqrt( mean( (gccVox_ts_norm - mean(gccVox_ts_norm)).^2 ) );
 % 4. we need the signal we want the model to be fitted on. For simplicity
 %   we will use a normalized version of the GCC voxel signal "gccVox_ts_norm".
 
-[X, RESNORM] = lsqcurvefit(@synthNoddiSignal_LR, ...
-                                [synthVox_param(1) synthVox_param(3) synthVox_param(4)], ...
-                                acqProtocol, gccVox_ts_norm);
+% this might be too difficult
+[X, RESNORM] = lsqcurvefit(); % complete this
 
 % Check the function outputs. What values do you get?
-% ANSWER: X = [0.6279   23.5554    0.0453]. RESNORM = 0.2097.
+% ANSWER: 
 % 
 % Do you understand what they are?
-% ASWER: X contains the parameter values which minimized the cost function
-% used in the MATLAB algorithm. RESNORM is the minimum value if the cost
-% function found by the algorithm.
+% ASWER: 
 
 % How does it compare to the RMSE we found earlier? What does it means?
 % Does it make sense to compare the two?
@@ -93,11 +88,11 @@ meanRMSE = sqrt( mean( (gccVox_ts_norm - mean(gccVox_ts_norm)).^2 ) );
 % Let's try to compute the sum of square error (SSE) and RMSE using the
 % fitted parameters  by our self
 
-fitGCC_sse = sum( (synthNoddiSignal_LR(X, acqProtocol) - gccVox_ts_norm).^2 );
-fitGCC_rmse = sqrt( mean( (synthNoddiSignal_LR(X, acqProtocol) - gccVox_ts_norm).^2 ));
+fitGCC_sse = ;
+fitGCC_rmse = ;
 
 % What values do you get?
-% ANSWER: fitGCC_sse = 0.2097. fitGCC_rmse = 0.0509;
+% ANSWER:
 
 % What can you said comparing fitGCC_rmse and voxRMSE?
 % ANSWER: 
@@ -108,6 +103,7 @@ fitGCC_rmse = sqrt( mean( (synthNoddiSignal_LR(X, acqProtocol) - gccVox_ts_norm)
 
 % Check the Model fit plot against the experimental data
 
+% RUN THIS CODE AND STO HERE...THE DL PARTI IS STILL IN PROGRESS 
 fitGCC_params = synthVox_param;
 fitGCC_params([1 3 4]) = X;
 scale = GetScalingFactors(noddi.name);

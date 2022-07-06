@@ -17,10 +17,6 @@ clc
 clear
 close all
 
-% load variables previously created
-
-%load('coursework_outputs\cw1.mat', 'fig_gcc_compact')
-
 %% 2.1 NODDI model
 
 % The way to create the NODI model via the NODDI MATLAB toolbox is using
@@ -32,28 +28,15 @@ noddi = MakeModel('WatsonSHStickTortIsoV_B0');
 
 % noddi is a variable of type struct. Explore it and try to understand what
 % the different fields refer to. Any guess?
-
 % ANSWER:
-% 1.    "Name" is the string identifying the model.
-% 2.    "numParams" is the total number of parameters characterizing the
-%       model.
-% 3.    "paramsStr" identifies the parameters.
-% 4.    "tissuetype" refers to the type of tissues we are looking at. NODDI
-%       can be used on ex-vivo data as well.
-% 5-8.  Are fields that contain useful information. This are particularly 
-%       useful when fitting the model to the data using the toolbox.
+% 
 
 % Check the content of noddi.GD.fixed. What does it represent in your
 % opinion? 
-
-% ANSWER: In NODDI we can't robustly estimate all the parameters. For a
-% robust parameter estimation we need to make some assumptions, hence some
-% of the parameters are fixed. 
+% ANSWER: 
 
 % Which are the fixed parameters?
-
-% ANSWER: the di parametr and the diso parameters are fixed. Also b0 is
-% fixed, but is is actually estimated from the DWI data itself.
+% ANSWER:
 
 %% 2.2 Synthesize signal via NODDI model
 
@@ -96,28 +79,24 @@ synthVox_fibredir = GetFibreOrientation(noddi.name, synthVox_param);
 synthVox_signal = SynthMeas(noddi.name, synthVox_param(1:end-2), acqProtocol, synthVox_fibredir);
 
 % Try to use the compact voxel data viwer as done in the previous course
-% work. Compare the result with that of the GCC voxel.
+% work.
 
 fig_synth_compact = figure('Position', [400 100 500 800], 'color', [ 1 1 1]);
-VoxelDataViewer(acqProtocol, synthVox_signal, synthVox_fibredir, b0, fig_synth_compact);
+
+VoxelDataViewer();  % complete this
 ylim([0 1.2])
 
-load('coursework_outputs\cw1.mat', 'fig_gcc_compact')
 
+% Compare the result with that of the GCC voxel.
+load('coursework_outputs\cw1.mat', 'fig_gcc_compact')
 
 % What differences do you see? Can you explain why?
 
 % ANSWER:
-% The first thing we note is that compared to the invivo measuresrements
-% the signal predicted by the model ...
-% The 13 b0s (black dashed lines) have all the same value, which is 1 after
-% normalization.
-% The curve shapes identified by the blue and red crosses are less steep
-% compared to the in-vivo ones. 
 
 %% 2.3 Generate a test set
 
-% should I create here a test set?
+% in progress ...
 
 
 %% 2.4 Save the output
