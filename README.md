@@ -57,6 +57,7 @@ git clone https://github.com/CIG-UCL/MedICSS_2022_microImag.git
 
 Once you have downloaded the project folder we need to add the folder to your MATLAB path. You can find the process illustrated by the following set of screenshots: [step1](figs/installation/addpath1.png), [step2](figs/installation/addpath2.png).
 
+<!---
 ## Download the example data set
 
 The data set is available for download as a [compressed zip archive](https://www.nitrc.org/frs/download.php/11758/NODDI_example_dataset.zip).
@@ -71,6 +72,7 @@ unzip NODDI_example_dataset.zip
 mv NODDI_example_dataset/ <path_to_project_folder>/MedICSS_2022_microImag/
 rm NODDI_example_dataset.zip
 ```
+--->
 
 ## Get started
 
