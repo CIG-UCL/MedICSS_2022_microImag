@@ -13,8 +13,25 @@ doc/course_material/coursework_outputs/cw2.mat
 doc/course_material/coursework_outputs/cw3.mat
 doc/course_material/coursework_outputs/cw4.mat
 
-# Folders
-NODDI_example_dataset/
+# Example dataset
+NODDI_example_dataset/NODDI_DWI.hdr
+NODDI_example_dataset/brain_mask.hdr
+NODDI_example_dataset/NODDI_DWI.img
+NODDI_example_dataset/brain_mask.img
+NODDI_example_dataset/roi_mask.hdr
+NODDI_example_dataset/roi_mask.img
+NODDI_example_dataset/output/
+NODDI_example_dataset/output/FittedParams.mat
+NODDI_example_dataset/output/example_ficvf.nii
+NODDI_example_dataset/output/NODDI_roi.mat
+NODDI_example_dataset/output/example_fiso.nii
+NODDI_example_dataset/output/example_fibredirs_xvec.nii
+NODDI_example_dataset/output/example_fmin.nii
+NODDI_example_dataset/output/example_fibredirs_yvec.nii
+NODDI_example_dataset/output/example_kappa.nii
+NODDI_example_dataset/output/example_fibredirs_zvec.nii
+NODDI_example_dataset/output/example_odi.nii
+
 
 # Matlab temporary files
 *.asv
