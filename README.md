@@ -50,7 +50,7 @@ The best way to install this GitHub folder is directly from your MATLAB main win
 Alternatively you can download a zip version of the repository from the git repository web page or use the following command from terminal:
 
 ```
-git clone https://github.com/micGuerr/MedICSS_2022_microImag.git
+git clone https://github.com/CIG-UCL/MedICSS_2022_microImag.git
 ```
 
 ## Installation
