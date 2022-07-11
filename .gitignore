@@ -8,7 +8,10 @@ doc/solutions/coursework_outputs/cw1.mat
 doc/solutions/coursework_outputs/cw2.mat
 
 # running output
-doc/course_material/coursework_outputs/*.mat
+doc/course_material/coursework_outputs/cw1.mat
+doc/course_material/coursework_outputs/cw2.mat
+doc/course_material/coursework_outputs/cw3.mat
+doc/course_material/coursework_outputs/cw4.mat
 
 # Folders
 NODDI_example_dataset/
