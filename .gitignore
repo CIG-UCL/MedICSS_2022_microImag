@@ -7,6 +7,9 @@ doc/solutions/cw02_NODDI_model.m
 doc/solutions/coursework_outputs/cw1.mat
 doc/solutions/coursework_outputs/cw2.mat
 
+# running output
+doc/course_material/coursework_outputs/*.mat
+
 # Folders
 NODDI_example_dataset/
 
