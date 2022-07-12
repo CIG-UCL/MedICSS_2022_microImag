@@ -6,6 +6,8 @@ function parWodi = kappa2odi(params, modelname)
 % the column of kappa values with ODI values
 % 
 
+% kappa is usually scaled by 10. Need to recover the unscaled value before
+% conversion.
 kappaIdx = GetParameterIndex(modelname, 'kappa');
 scaling = GetScalingFactors(modelname);
 
