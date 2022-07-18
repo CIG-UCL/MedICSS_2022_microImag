@@ -25,7 +25,7 @@ You will need to have the following ad-on toolboxes installed on your MATLAB:
 
 * **Statistics and Machine Learning Toolbox**.
 
-You can check the ad-ond currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window. You can find the process illustrated by the following screenshots: [step1](figs/prereq/addons1.png), [step2](figs/prereq/addons2.png).
+You can check the add-on currently installed on your MATLAB as well as donwload the missing ones simply from your MATLAB main window. You can find the process illustrated by the following screenshots: [step1](figs/prereq/addons1.png), [step2](figs/prereq/addons2.png).
 
 <!---
 ### MATLAB toolboxes
