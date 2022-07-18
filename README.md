@@ -15,11 +15,11 @@ If you want to know more you can have a look at the introductoy slides available
 The entire course is developed in [MATLAB](https://uk.mathworks.com/products/matlab.html), so make sure to have it installed on you computer.
 The course was tested on MATLAB R2022a. The Deep Learning Toolbox and Statistics and Machine Learning Toolbox are available from 2019a version on, so you should have at least that version.
 
-### MATLAB ad-on toolboxes
+### MATLAB add-on toolboxes
 
-You will need to have the following ad-on toolboxes installed on your MATLAB:
+You will need to have the following add-on toolboxes installed on your MATLAB:
 
-* **Optimization** toolbox.
+* **Optimization toolbox**.
 
 * **Deep Learning Toolbox**.
 
